@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 var opus = require('opusscript');
-var ffmpeg = require('ffmpeg');
 let request = require(`request`);
 let fs = require(`fs`);
 function download(url){
