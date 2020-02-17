@@ -14,4 +14,12 @@
   "devDependencies": {
     "nodemon": "^1.18.9"
   }
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node index.js"
+},
+  "engines": {
+  "node": "10.x",
+  "npm": "*"
+},
 }
