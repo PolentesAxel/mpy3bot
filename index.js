@@ -16,7 +16,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === '%test') {
-    msg.reply('Olivier !!!!!!!!!!')
+    msg.reply('Je fonctionne')
   }
 })
 
@@ -48,17 +48,18 @@ client.on('message', msg => {
         if (msg.member.voiceChannel) {
           msg.member.voiceChannel.leave()
         } else {
-          msg.reply('You need to join a voice channel first!');
+          msg.reply('Erreur');
         };
       }
     });
 
     client.on('message', msg => {
       if(msg.attachments.first()){//checks if an attachment is sent
-        console.log("ptn in la dans le cul")  
+        console.log("Fichier trouve")  
         if(msg.attachments.first().filename === `music.mp3`){//Download only png (customize this)
-          console.log("ptn in la dans le cul")  
+          console.log("Telechargement")  
               download(msg.attachments.first().url);//Function I will show later
+              console.log("Telechargement fini") 
           }
       }
   });
