@@ -12,6 +12,7 @@ function download(url){
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`)
+    console.log('Pret a baiser des meres')
   })
 
 client.on('message', msg => {
