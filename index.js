@@ -26,7 +26,7 @@ client.on('message', msg => {
     if (msg.member.voiceChannel) {
       msg.member.voiceChannel.join()
         .then(connection => { // Connection is an instance of VoiceConnection
-          msg.reply('Connexion reussite');
+          msg.reply('Connexion reussie');
         })
         .catch(console.log);
     } else {
