@@ -30,7 +30,7 @@ client.on('message', msg => {
         })
         .catch(console.log);
     } else {
-      msg.reply('PTDR T PA SUR UN CHANNEL VOCAL');
+      msg.reply('Pas connecte sur un channel vocal');
     };
   }
 });
