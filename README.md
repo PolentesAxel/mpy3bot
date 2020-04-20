@@ -8,9 +8,9 @@ Pour lancer une musique, uploadez dans l'un des channel une musique nomée "musi
 
 Les commandes sont :
 
-"%test" pour tester le bot
-"%join" pour join le channel vocal
-"%play" pour lancer la musique que vous venez d'upload
-"%dejoin" pour sortir du channel vocal
+"%test" pour tester le bot ; 
+"%join" pour join le channel vocal ; 
+"%play" pour lancer la musique que vous venez d'upload ; 
+"%dejoin" pour sortir du channel vocal ; 
 
 Des améliorations seront a venir
