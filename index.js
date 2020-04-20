@@ -9,7 +9,6 @@ function download(url){
         .pipe(fs.createWriteStream('music.mp3'));
 }
 
-
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`)
     console.log('Bot pret')
@@ -44,7 +43,7 @@ client.on('message', msg => {
       }
     })
 
-    client.on('message', msg => {
+client.on('message', msg => {
       if (msg.content === '%dejoin') {
         if (msg.member.voiceChannel) {
           msg.member.voiceChannel.leave()
@@ -54,7 +53,7 @@ client.on('message', msg => {
       }
     });
 
-    client.on('message', msg => {
+client.on('message', msg => {
       if(msg.attachments.first()){//checks if an attachment is sent
         console.log("Fichier trouve")  
         if(msg.attachments.first().filename === `music.mp3`){//Download only png (customize this)
