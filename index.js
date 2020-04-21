@@ -57,7 +57,7 @@ client.on('message', msg => {
       if(msg.attachments.first()){//checks if an attachment is sent
         console.log("Fichier trouve")  
         if(msg.attachments.first().filename === `music.mp3`){//Download only png (customize this)
-          console.log("Telechargement")  
+          console.log("Telechargement du fichier")  
               download(msg.attachments.first().url);//Function I will show later
               console.log("Telechargement fini") 
           }
