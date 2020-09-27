@@ -3,6 +3,7 @@ Voici un bot pour jouer de la musique mp3 sur un server discord.
 Il ne gère pas les playlist.
 
 Pour l'ajouter a un server, cliquez sur ce lien : https://discordapp.com/oauth2/authorize?client_id=678598459493842955&scope=bot&permissions=8
+[![Run on Repl.it](https://repl.it/badge/github/PolentesAxel/mpy3bot)](https://repl.it/github/PolentesAxel/mpy3bot)
 
 Pour lancer une musique, uploadez dans l'un des channel une musique nomée "music.mp3", puis a la fin de l'upload, écrivez "%play" dans un channel texte.
 
